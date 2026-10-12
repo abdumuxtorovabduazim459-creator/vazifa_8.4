@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from .models import Book, Comment
+from .models import Genre, Book, Comment
 
-admin.site.register([Book, Comment])
+admin.site.register([Genre, Book, Comment])
